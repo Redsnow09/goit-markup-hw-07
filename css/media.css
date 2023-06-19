@@ -1,33 +1,18 @@
-@media screen and (min-width: 428px) {
-.container {
-    max-width: 428px;
+@media screen and (min-width: 426px) {
     
-}
-.title {
-    font-weight: 700;
-    font-size: 36px;
-line-height: 40px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    
-    margin: 0 auto;
+      
+      @media screen and (min-width: 768px) {
+        .container {
+          max-width: 766px;
+        }
+      }
+      
+      @media screen and (min-width: 1158px) {
+        .container {
+          max-width: 1158px;
+        }
+      }
 
 
-    
-}
 
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        
-    }
-    
-}
 
-@media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        
-    }
-    
-}

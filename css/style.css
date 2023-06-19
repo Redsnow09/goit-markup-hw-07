@@ -48,13 +48,18 @@ img {
   padding: 120px 0;
   outline: 2px solid greenyellow;
 }
-
 .container {
-  padding: 0 15px;
-  margin: 0 auto;
+  max-width: 426px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
   outline: 2px solid red;
-  width: 100%;
 }
+
+
+
+
 
 /**-----------HEADER----------**/
 .nav {
@@ -161,13 +166,14 @@ img {
 }
 
 .title {
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   text-align: center;
   letter-spacing: 0.02em;
-  
   margin: 0 auto;
+  
   color: var(--header-color);
 }
 
@@ -189,7 +195,7 @@ img {
   height: 56px;
   border-radius: 4px;
   margin: 0 auto;
-  margin-top: 48px;
+  margin-top: 72px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--header-color);
   background-color: var(--button);
