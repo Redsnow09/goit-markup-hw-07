@@ -1,16 +1,33 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
 .container {
-    max-width: 448px;
+    max-width: 428px;
+    
 }
+.title {
+    font-weight: 700;
+    font-size: 36px;
+line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    margin: 0 auto;
+
+
     
 }
 
-@media screen and (min-width: 428px) {
-
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        
+    }
     
 }
 
-@media screen and (min-width: 428px) {
-
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        
+    }
     
 }
