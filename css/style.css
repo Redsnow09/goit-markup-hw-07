@@ -46,14 +46,14 @@ img {
 
 .section {
   padding: 120px 0;
-  /* outline: 2px solid greenyellow;*/
+  outline: 2px solid greenyellow;
 }
 
 .container {
   padding: 0 15px;
   margin: 0 auto;
-  /*outline: 2px solid red;*/
-  width: 1158px;
+  outline: 2px solid red;
+  width: 100%;
 }
 
 /**-----------HEADER----------**/
@@ -161,7 +161,6 @@ img {
 }
 
 .title {
-  height: 120px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -577,7 +576,6 @@ img {
   position: relative;
 }
 
-
 .text-comment:focus {
   border-color: var(--button);
 }
@@ -817,7 +815,7 @@ img {
   color: var(--header-color);
 }
 .div-subscribe {
-margin-left: 80px;
+  margin-left: 80px;
 }
 
 .subscribe {
