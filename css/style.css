@@ -45,9 +45,11 @@ img {
 }
 
 .section {
-  padding: 120px 0;
+
+
   outline: 2px solid greenyellow;
 }
+
 .container {
   max-width: 426px;
   padding-left: 15px;
@@ -56,10 +58,6 @@ img {
   margin-right: auto;
   outline: 2px solid red;
 }
-
-
-
-
 
 /**-----------HEADER----------**/
 .nav {
@@ -162,7 +160,7 @@ img {
   background-size: cover;
   margin: 0 auto;
   padding: 112px 0;
-  height: 432px;
+
 }
 
 .title {
@@ -173,7 +171,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   margin: 0 auto;
-  
+
   color: var(--header-color);
 }
 
@@ -206,7 +204,7 @@ img {
 }
 
 .icon {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   max-width: 264px;
@@ -230,26 +228,27 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.element {
-  width: calc((100% - 72px) / 4);
-}
+
 .list-list {
-  display: flex;
-  gap: 24px;
+  padding-top: 96px;
+}
+
+.element {
+  margin-bottom: 72px;
 }
 
 .title-top {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  text-align: center;
+  font-size: 36px;
+  line-height: 40px;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
   color: var(--footer-color);
 }
 
 .title-text {
-  font-size: 16px;
-  line-height: 1.5;
+  font-weight: 500;
+  line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--menu-color);
 }
