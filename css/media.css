@@ -9,8 +9,6 @@
     max-width: 766px;
   }
 
-
-  
   .title-top {
     text-align: left;
   }
@@ -24,15 +22,13 @@
   }
 
   .list-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
   }
 
   .icon {
-    display:none;
-
+    display: none;
   }
 
   .element {
@@ -44,7 +40,6 @@
   .container {
     max-width: 1158px;
     margin: 0 auto;
-  
   }
 
   .section-three {
@@ -52,9 +47,9 @@
     padding-top: 0;
   }
   .title-top-section {
-  padding: 188px 0;
-  max-width: 1440px;
-}
+    padding: 188px 0;
+    max-width: 1440px;
+  }
   .title {
     height: 120px;
     line-height: 1.07;
@@ -80,7 +75,7 @@
     margin-bottom: 8px;
     color: var(--footer-color);
   }
-  
+
   .title-text {
     font-weight: 400;
     font-size: 16px;
