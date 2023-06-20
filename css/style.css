@@ -166,7 +166,7 @@ img {
 }
 
 .title {
-  font-style: normal;
+  max-width: 320px;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
