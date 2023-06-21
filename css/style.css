@@ -45,12 +45,11 @@ img {
 }
 
 .section {
-
-
   outline: 2px solid greenyellow;
 }
 
 .container {
+  padding: 96px 0;
   max-width: 426px;
   padding-left: 15px;
   padding-right: 15px;
@@ -160,7 +159,6 @@ img {
   background-size: cover;
   margin: 0 auto;
   padding: 112px 0;
-
 }
 
 .title {
@@ -227,10 +225,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.list-list {
-  padding-top: 96px;
 }
 
 .element {
