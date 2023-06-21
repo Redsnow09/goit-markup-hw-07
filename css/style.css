@@ -45,11 +45,11 @@ img {
 }
 
 .section {
- 
   outline: 2px solid greenyellow;
 }
 
 .container {
+  width: 100%;
   padding: 96px 0;
   max-width: 426px;
   padding-left: 15px;
@@ -250,6 +250,7 @@ img {
 
 /**-----------SECTION 3---------**/
 .section-three {
+  display: none;
   padding-top: 0;
 }
 .work {
@@ -284,9 +285,6 @@ img {
   color: var(--footer-color);
 }
 .team-list {
-  display: flex;
-  gap: 24px;
-
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -294,7 +292,7 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: var(--header-color);
-  width: calc((100% - 72px) / 4);
+  
   border-radius: 0px 0px 4px 4px;
 }
 .div-foto {
